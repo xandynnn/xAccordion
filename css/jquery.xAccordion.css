@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document 
+
+xAccordion jQuery Plugin
+Author: Alexandre Mattos <xandynnn>
+
+*/
+
+.xAccordion{margin-bottom:20px}
+.xAccordion > ul{border-bottom:3px solid #d9d9d9;list-style:none;border-top:1px solid #d9d9d9}
+.xAccordion > ul > li{padding:20px 10px;border-bottom:1px solid #d9d9d9;}
+.xAccordion > ul > li a:link,
+.xAccordion > ul > li a:visited{color:#838383;font-family:"GothamMedium", Arial, sans-serif;font-size:14px;}
+.xAccordion > ul > li a:hover,
+.xAccordion > ul > li a:focus{text-decoration:none;}
+.xAccordion > ul > li a i{margin-right:12px;}
+.xAccordion > ul > li.active a:link,
+.xAccordion > ul > li.active a:visited,
+.xAccordion > ul > li a:hover,
+.xAccordion > ul > li.active a:active{color:#4195d3;text-decoration:none;}
+.xAccordion > ul > li > div.contentSlider{padding:20px 0 20px 20px;}
+.xAccordion > ul > li > div.contentSlider ul{list-style:circle;margin-bottom:10px;}
+.xAccordion > ul > li > div.contentSlider ul > li{}
+.xAccordion > ul > li > div.contentSlider p{color:#2f2f2f;font-family:"Arial", sans-serif;font-size:13px;margin:0 0 10px 0;}
+.xAccordion > ul > li > div.contentSlider p.noMargin{margin:0;}
+
+/* Botoes Ativo*/
+.xAccordion > ul > li i.fa-angle-down{display:inline-block;}
+.xAccordion > ul > li i.fa-angle-up{display:none;}
+.xAccordion > ul > li.active i.fa-angle-down{display:none;}
+.xAccordion > ul > li.active i.fa-angle-up{display:inline-block;}
+
